@@ -1,1 +1,2 @@
-﻿gnome-open (url name)
+﻿#opening an url window
+ gnome-open (url name) 
