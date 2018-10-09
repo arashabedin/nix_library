@@ -21,3 +21,11 @@ alias df='df -hT -x tmpfs'
 
 # Extract tar.gz archive from the command line
 tar -xzvf *filename*
+
+# View the list of stuff installed on your linux
+dpkg --list
+
+# Uninistall the package
+sudo apt-get purge packagename
+
+
