@@ -28,4 +28,15 @@ dpkg --list
 ### Uninistall the package
 sudo apt-get purge packagename
 
+### Convert a value between different number systems
+**Decimal to Binary**
+echo "obase=2; $VALUE" |bc
 
+**Binary to Decimal**
+echo "ibase=2; obase=2; $VALUE" |bc
+
+**Decimal to Hexadecimal**
+echo "obase=16; $VALUE" |bc
+
+**Hexadecimal to Decimal**
+echo "ibase=16; obase=10; $VALUE" |bc
