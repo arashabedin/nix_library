@@ -40,3 +40,6 @@ echo "obase=16; $VALUE" |bc
 
 **Hexadecimal to Decimal**
 echo "ibase=16; obase=10; $VALUE" |bc
+
+### Add prefix to all files inside a directory(replace "PRE_" to any text).
+find * -maxdepth 0 -exec mv {} PRE_{} \;
